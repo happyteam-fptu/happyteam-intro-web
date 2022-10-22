@@ -1,0 +1,163 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+#nav{
+    position:absolute;
+}
+
+#header{
+    height: 46px;
+    background-color: black ;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+
+#header a{
+    display: inline-block;
+    padding: 0 24px;
+    font-size: 20px;
+    line-height: 46px;
+    color:#fff;
+    text-decoration: none;
+}
+
+
+#header .header_item :hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#header .subnav a{
+    color: #000;
+}
+
+
+/* Ảnh bìa */
+
+#cover{
+    padding-top:50%;
+    background:url('/assets/images/cover.jpg') top center / cover no-repeat;
+}
+
+
+/* Giới thiệu về dự án */
+#project{
+    display: flex;
+    justify-content: center;
+}
+
+#project .wrap{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#project h2{
+    align-self: center;
+    margin: 40px 0px 20px 0px ;
+    font-size: 26px;
+}
+
+#project .content-prj{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#project .function-prj{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+/* Giới thiệu nhóm */
+#team{
+    display: flex;
+    justify-content: center;
+}
+
+#team .wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team h2{
+    margin: 40px 0 10px 0;
+    font-size: 26px;
+    color: rgb(76, 180, 76);
+}
+
+#team .slogan{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#team .content-item{
+    font-size: 18px;
+    line-height: 24px;
+}
+/* Giới thiệu thành viên */
+
+#member{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#member .wrapper{
+    width: 80%;
+}
+
+#member .title{
+    text-align: center;
+    margin: 40px auto;
+}
+
+#member .content-item{
+    margin-bottom: 40px;
+}
+
+#member .content-item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#member .content-item{
+    display: flex;
+    align-items: center;
+  
+}
+
+#member .info p{
+    line-height: 28px;
+    font-size: 18px;
+}
+/* Footer */
+
+footer{
+    background-color: #000;
+}
+
+footer div{
+    color:#fff;
+}
